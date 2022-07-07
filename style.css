@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    align-items: ;
+}
+
+.hero {
+    background-image: linear-gradient(rgb(249 249 249 / 16%), rgb(0 0 0 / 86%)),
+        url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+
+
+}
+
+.hero-title {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+}
+
+.hero-title h1 {
+    font-size: 45px;
+    margin: 0;
+    color: white;
+}
+
+.hero-title p {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 12px 25px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.donate-today {
+    padding-top: 5px;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+.donate-today h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+.donate-today p {
+    color: gray;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 15px;
+    align-content: center;
+
+}
+
+.donation {
+    display: flex;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.amount {
+    text-align: center;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    background-color: #fafafa;
+    
+}
+
+.amount.active {
+    border: 1px solid orange;
+    color: orange;
+}
+.button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 12px 25px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    justify-content: center;
+    
+    padding-top: 5px;
+    
+}
+.donate-button{
+    text-align: center;
+
+}
+h4 {
+    text-align: center;
+}
+
+
+.subscribe {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.p{
+    align-items: center;
+}
+
+.subscribe .form {
+    background: #FFF4D6;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+input[type="text"] {
+    width: 220px;
+    height: 25px;
+    padding-right: 50px;
+    border: 0;
+}
+
+input[type="submit"] {
+    margin-left: -50px;
+    height: 26px;
+    width: 70px;
+    background: #FF5959;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.donate-plan {
+    text-align: center;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    background-color: #fafafa;
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.plan-item {
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column;
+    justify-content: center;
+}
+.plan-item h2{
+    margin-bottom: 10px;
+}
+.plan-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.plan-item p {
+    text-align: left;
+    padding:0;
+}
+.plan-item:nth-child(2){
+    background-color: #EDF5F6;
+}
+.plan-item:nth-child(2){
+    background-color: #FFEEEE;
+}
+.plan-item:nth-child(3){
+    background-color: #FFF4D6;
+}
+
+.subscribe-title {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.subscribe-title h1 {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1px;
+    background-color: rgb(57, 57, 94);
+    color: white;
+    margin: 0;
+    
+  }
+
+footer .title{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
